@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC / EDR Portfolio | [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/img/profile.jpg" alt="Profile Image" class="profile-img">
+            <h1>[Your Name]</h1>
+            <p>SOC / EDR / XDR Analyst</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="soc.html">SOC / EDR</a></li>
+                    <li><a href="grc.html">GRC / Compliance</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>SOC & Threat Detection Experience</h2>
+            <ul>
+                <li>SIEM (Splunk) alert triage and correlation rules</li>
+                <li>EDR/XDR endpoint telemetry and behavioral analysis</li>
+                <li>Incident response workflows and PCAP analysis</li>
+                <li>Threat hunting using MITRE ATT&CK framework</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© [Your Name] 2025 | <a href="mailto:youremail@example.com">Email Me</a> | <a href="[LinkedIn URL]">LinkedIn</a></p>
+        </div>
+    </footer>
+</body>
+</html>

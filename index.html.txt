@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="assets/img/profile.jpg" alt="Profile Photo" class="profile-photo">
+    <h1>[YOUR NAME]</h1>
+    <p>Cybersecurity Analyst • SOC • EDR/XDR • GRC</p>
+    <p>Berlin, Germany | [Email] | <a href="[LinkedIn]" target="_blank">LinkedIn</a></p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certs">Certifications</a>
+</nav>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="box">
+        <p>
+            Cybersecurity professional with 10+ years of IT, monitoring, and security-focused experience from IBM and Volt Delta.
+            Skilled in SIEM, EDR/XDR, threat detection, network forensics, and compliance frameworks (ISO-27001, NIST CSF).
+        </p>
+        <p>
+            Trained in SOC workflows, incident response, EDR telemetry, and GRC alignment through modern cybersecurity labs.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="box skill-box">
+        <ul>
+            <li><strong>SOC & Detection:</strong> Splunk, Log Triage, Correlation, IOC Analysis</li>
+            <li><strong>EDR/XDR:</strong> Telemetry Review, Behavioral Detection, Containment</li>
+            <li><strong>Network Security:</strong> Wireshark, TCPDump, Snort, PCAP Analysis</li>
+            <li><strong>GRC & Controls:</strong> ISO-27001, NIST CSF, GDPR, Risk Assessments</li>
+            <li><strong>Infrastructure:</strong> AD, Kerberos, DNS, Firewalls, Azure</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects & Case Studies</h2>
+
+    <div class="box">
+        <h3>SOC Alert Investigation Simulation</h3>
+        <img src="assets/img/soc-diagram.png" alt="SOC Diagram" class="project-img">
+        <p>Analyzed brute-force attempts, suspicious authentication behavior, and potential malware beacons using SIEM tools.</p>
+    </div>
+
+    <div class="box">
+        <h3>EDR Behavioral Detection Lab</h3>
+        <img src="assets/img/edr-diagram.png" alt="EDR Diagram" class="project-img">
+        <p>Detected malicious PowerShell activity, correlated MITRE ATT&CK techniques (T1059, T1105), and performed containment.</p>
+    </div>
+
+    <div class="box">
+        <h3>ISO-27001 GRC Audit Simulation</h3>
+        <img src="assets/img/grc-diagram.png" alt="GRC Diagram" class="project-img">
+        <p>Performed Annex A control mapping, risk scoring, gap analysis, and prepared audit-ready documentation.</p>
+    </div>
+</section>
+
+<section id="experience" class="section">
+    <h2>Professional Experience</h2>
+
+    <div class="box">
+        <h3>IBM — Software Engineer (Security/NOC Collaboration)</h3>
+        <p>2014–2019 | United States</p>
+        <ul>
+            <li>Investigated system anomalies reducing downtime by 15%.</li>
+            <li>Supported security escalations and incident handling workflows.</li>
+            <li>Performed configuration and compatibility assessments.</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>Volt Delta — International Support Analyst</h3>
+        <p>2009–2014 | United States</p>
+        <ul>
+            <li>Maintained 250M+ records with 97% accuracy.</li>
+            <li>Monitored 140+ hosts & 900+ services.</li>
+            <li>Applied GDPR-aligned data handling practices.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="certs" class="section">
+    <h2>Certifications</h2>
+    <div class="box">
+        <p>Security+ • Azure Administrator Associate • Google Cybersecurity • Network+ • A+</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 [Your Name] — Cybersecurity Portfolio
+</footer>
+
+</body>
+</html>
